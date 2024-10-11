@@ -1,133 +1,200 @@
-// first vid 
-console.log(1)
-console.log(2)
+// // first vid 
+// console.log(1)
+// console.log(2)
 
-//second vid
-let age = 25;
-let year = 2019;
+// //second vid
+// let age = 25;
+// let year = 2019;
 
-//log things to console
-// console.log(age, year);
+// //log things to console
+// // console.log(age, year);
 
-/*age = 30;
-console.log(age);
+// /*age = 30;
+// console.log(age);
 
-const points = 100;
-console.log(points);*/
+// const points = 100;
+// console.log(points);*/
 
-var score = 75;
-console.log(score);
+// var score = 75;
+// console.log(score);
 
-//strings
-console.log('hello world');
+// //strings
+// console.log('hello world');
 
-let email = 'mario@thenetninja.co.uk';
-console.log(email);
+// let email = 'mario@thenetninja.co.uk';
+// console.log(email);
 
-//string concatenation
-let firstName = 'Brandon'
-let lastName = 'Sanderson'
+// //string concatenation
+// let firstName = 'Brandon'
+// let lastName = 'Sanderson'
 
-let fullName = dirstName + ' ' + lastName;
+// let fullName = dirstName + ' ' + lastName;
 
-console.log(fullName);
+// console.log(fullName);
 
-//getting charecters
-console.log((fullName[2]));
+// //getting charecters
+// console.log((fullName[2]));
 
-//string length
-console.log(fullName.length);
+// //string length
+// console.log(fullName.length);
 
-//string methods
-console.log(fullName.toUpperCase());
-let result = fullName.toLowerCase();
-console.log(result, fullName);
+// //string methods
+// console.log(fullName.toUpperCase());
+// let result = fullName.toLowerCase();
+// console.log(result, fullName);
 
-let index = email.indexOf('@');
-console.log(index);
+// let index = email.indexOf('@');
+// console.log(index);
 
-//common string methods
-// let result2 = email.lastIndexOf('n');
+// //common string methods
+// // let result2 = email.lastIndexOf('n');
 
-// let result2 = email.slice(2,5);
-// let result2 = email.substring(4,10);
-// let result2 = email.replace('m','W');
-let result2 = email.replace('n','w')
+// // let result2 = email.slice(2,5);
+// // let result2 = email.substring(4,10);
+// // let result2 = email.replace('m','W');
+// let result2 = email.replace('n','w')
 
-console.log(result2);
+// console.log(result2);
 
-let radius = 10;
-const pi = 3.14;
-// console.log(radius, pi);
+// let radius = 10;
+// const pi = 3.14;
+// // console.log(radius, pi);
 
-//math opperators +, -, *, /, **, %
-// console.log(10/2);
-// let result3 = radius % 3;
-// let result3 = pi * radius**2
+// //math opperators +, -, *, /, **, %
+// // console.log(10/2);
+// // let result3 = radius % 3;
+// // let result3 = pi * radius**2
 
-//order of operations P E M D A S
-// let result3 = 5*(10-3)**2
+// //order of operations P E M D A S
+// // let result3 = 5*(10-3)**2
 
-// console.log(radius3);
-let likes = 10
-// likes = likes+1
-// likes++;
-// likes--
-// likes+=10
-// likes-=5
-// likes*=2
-// likes/=2
-// console.log(likes);
+// // console.log(radius3);
+// let likes = 10
+// // likes = likes+1
+// // likes++;
+// // likes--
+// // likes+=10
+// // likes-=5
+// // likes*=2
+// // likes/=2
+// // console.log(likes);
 
-//NaN - not a number
-// console.log(5/'hello');
-// console.log(5*'hello');
-
-
-let result4 = 'the blog has '+ likes+' likes';
+// //NaN - not a number
+// // console.log(5/'hello');
+// // console.log(5*'hello');
 
 
-//template strings
-const title = 'best reads of 2019'
-const author = 'mario'
-const likes2 = 30
+// let result4 = 'the blog has '+ likes+' likes';
 
-//concatination way
-// let result5 = 'the blog called ' + title + ' by ' + author + ' has ' + likes2 + ' likes'
+
+// //template strings
+// const title = 'best reads of 2019'
+// const author = 'mario'
+// const likes2 = 30
+
+// //concatination way
+// // let result5 = 'the blog called ' + title + ' by ' + author + ' has ' + likes2 + ' likes'
+// // console.log(result5);
+
+
+// //template literal way
+// let result5 = `the blog called ${title} by ${author} has ${likes2} likes`
 // console.log(result5);
 
-
-//template literal way
-let result5 = `the blog called ${title} by ${author} has ${likes2} likes`
-console.log(result5);
-
-//creating html templates
-let html = `
-<h2>${title}</h2>
-<p>by ${author}</p>
-<span>this blog has ${likes2} likes</span>
-`;
-console.log(html);
+// //creating html templates
+// let html = `
+// <h2>${title}</h2>
+// <p>by ${author}</p>
+// <span>this blog has ${likes2} likes</span>
+// `;
+// console.log(html);
 
 
-let ninjas = ['shaun', 'ryu', 'chun-li'];
+// let ninjas = ['shaun', 'ryu', 'chun-li'];
 
-// ninjas[1] = 'ken';
-// console.log(ninjas[1]);
+// // ninjas[1] = 'ken';
+// // console.log(ninjas[1]);
 
-// let ages = [20,25,30,35]
-// console.log(ages[2]);
+// // let ages = [20,25,30,35]
+// // console.log(ages[2]);
 
-// let random = ['shaun', 'crystal', 30, 20];
-// console.log(random);
+// // let random = ['shaun', 'crystal', 30, 20];
+// // console.log(random);
 
-// console.log(ninjas.length);
+// // console.log(ninjas.length);
 
-// array methods
-// let result6 = ninjas.join('-');
-// let result6 = ninjas.indexOf('chun-li');
-// let result6 = ninjas.concat(['ken', 'crystal'])
-let result6 = ninjas.push('ken');
-result6 = ninjas.pop()
-console.log(ninjas);
+// // array methods
+// // let result6 = ninjas.join('-');
+// // let result6 = ninjas.indexOf('chun-li');
+// // let result6 = ninjas.concat(['ken', 'crystal'])
+// let result6 = ninjas.push('ken');
+// result6 = ninjas.pop()
+// console.log(ninjas);
+
+// let agee = null;
+// console.log(age, age+3, `the age is ${agee}`);
+
+// //booleans & comparisons
+// console.log(true, false, 'true', 'false');
+
+
+// //methods can return booleans
+// let email = 'luigi@theninja.co.uk'
+// let names = ['mario', 'luigi', 'toad']
+
+// // let result7 = email.includes('!')
+// // let result7 = names.includes('bowzer');
+
+// // console.log(result7);
+
+
+// // comparison operators
+// let ageee = 25
+
+// // console.log(ageee == 25);
+// // console.log(ageee == 30);
+// // console.log(ageee != 30);
+// // console.log(ageee > 20);
+// // console.log(ageee <= 25);
+// // console.log(ageee >= 25);
+
+// let namee = 'shaun'
+
+// console.log(namee == 'shaun');
+// console.log(namee == 'Shaun');
+// console.log(namee > 'crystal');
+// console.log(namee > 'Shaun');
+// console.log(namee > 'Crystal');
+
+let age = 25 
+
+// loose comparison (different types can still be equal)
+
+// console.log(age == 25);
+// console.log(age == '25');
+// console.log(age != '25');
+// console.log(age != '25');
+
+// strict comparison (diffirent types cannot be equal)
+
+console.log(age === 25);
+console.log(age === '25');
+console.log(age !== 25);
+console.log(age !== '25');
+
+//type conversion
+let score = '100';
+
+// score = number(score)
+// console.log(score + 1); 
+// console.log(typeof score);
+
+// let result = number('hello');
+// let result = String(50)
+// let result = Boolean(0)
+let result = Boolean('')
+
+console.log(result, typeof result);
+
+
 
