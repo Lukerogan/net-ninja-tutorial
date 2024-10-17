@@ -48,6 +48,13 @@ do{
 
 const password = 'p@ss';
 
-if(password.length >= 8){
+if(password.length >= 12 && password.includes('@')){
+    console.log('that pass is mighty strong');
+}else if(password.length >= 8 || password.includes('@') && password.length > 5){
     console.log('that password is long enough!');
+    
+}
+else{
+    console.log('that password isnt long enough');
+    
 }
